@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    background-color: aqua;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+.game{
+    margin-left: 150px;
+    margin-top: 50px;
+
+    
+}

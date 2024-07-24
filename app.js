@@ -43,6 +43,14 @@ function rightKeyPressed(){
     rocket.x = rocket.x +5;
 }
 
+function upKeyPressed(){
+    rocket.y = rocket.y -5;
+}
+
+function downKeyPressed(){
+    rocket.y = rocket.y +5;
+}
+
 function spaceKeyPressed() {
     const bullet = PIXI.Sprite.from("assets/img/bullet.png");
     bullet.x = rocket.x + 13;
